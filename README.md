@@ -49,7 +49,33 @@ cd shop-cart
 ```
 
 ## 📁 Project Folder Structure
-shop-cart/ │ ├── client/ │ └── src/ │ ├── components/ │ ├── api/ │ ├── GlobalState.js │ └── ... │ ├── server/ │ ├── controllers/ │ ├── models/ │ ├── routes/ │ ├── middleware/ │ ├── server.js │ └── ... │ ├── .env ├── package.json └── README.md
+shop-cart/
+├── 📦 client/                    # React frontend
+│   ├── 🌐 public/                # Static files (index.html, icons, etc.)
+│   └── 💻 src/
+│       ├── 🎨 assets/           # Images, fonts, and styles
+│       ├── 🧩 components/       # Reusable UI components
+│       ├── 📄 pages/            # Route-level page components
+│       ├── 🔌 services/         # API interaction layer (Axios, fetch)
+│       ├── 🧠 context/          # React Contexts and Providers
+│       ├── 🛠️ App.js
+│       └── 🧬 index.js
+│
+├── 🔧 server/                   # Node.js & Express backend
+│   ├── ⚙️ config/              # Config files (e.g., DB connection)
+│   ├── 🧠 controllers/         # Route handler logic
+│   ├── 📦 models/             # Mongoose schemas/models
+│   ├── 🚏 routes/             # API endpoints
+│   ├── 🧰 middleware/         # Custom middleware (auth, error handling)
+│   ├── 🧪 utils/              # Helper functions and utilities
+│   └── 🚀 server.js           # Entry point for the backend
+│
+├── 🔐 .env                      # Environment variables
+├── 📄 .gitignore                # Files to ignore in Git
+├── 📦 package.json              # NPM project metadata and scripts
+├── 📘 README.md                 # Project documentation
+└── 🪪 LICENSE                   # License file
+
 
 ## Install Dependencies
 ```
