@@ -30,8 +30,6 @@ A modern e-commerce web app built with the MERN stack.
 
 ---
 
-This section now clearly shows both frontend and backend tech stacks with relevant icons!
-
 ## ✨ Features
 
 - 🔐 User authentication (login/register/logout)
@@ -48,23 +46,11 @@ This section now clearly shows both frontend and backend tech stacks with releva
 ```sh
 git clone https://github.com/Kishan-shr/shop-cart.git
 cd shop-cart
-# See full setup in the main README section above
 ```
-## 📁 Project Folder Structure
 
-client/
-  src/
-    components/
-    api/
-    GlobalState.js
-    ...
-server/
-  controllers/
-  models/
-  routes/
-  middleware/
-  [server.js](http://_vscodecontentref_/0)
-  ...
+## 📁 Project Folder Structure
+shop-cart/ │ ├── client/ │ └── src/ │ ├── components/ │ ├── api/ │ ├── GlobalState.js │ └── ... │ ├── server/ │ ├── controllers/ │ ├── models/ │ ├── routes/ │ ├── middleware/ │ ├── server.js │ └── ... │ ├── .env ├── package.json └── README.md
+
 ## Install Dependencies
 ```
 Client
