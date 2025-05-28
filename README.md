@@ -49,6 +49,7 @@ cd shop-cart
 ```
 
 ## 📁 Project Folder Structure
+```
 shop-cart/
 ├── 📦 client/                    # React frontend
 │   ├── 🌐 public/                # Static files (index.html, icons, etc.)
@@ -75,7 +76,7 @@ shop-cart/
 ├── 📦 package.json              # NPM project metadata and scripts
 ├── 📘 README.md                 # Project documentation
 └── 🪪 LICENSE                   # License file
-
+```
 
 ## Install Dependencies
 ```
